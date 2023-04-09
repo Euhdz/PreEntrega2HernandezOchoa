@@ -1,0 +1,74 @@
+body {
+    background-color: white
+}
+
+.caja-nosotros {
+    width: 600px;
+
+
+}
+
+h1 {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.titulo-nosotros {
+    font-family: Arial, sans-serif;
+    color: navy;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+
+.parrafo-nosotros {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.foto-1 {
+    height: 600, 300;
+}
+
+
+
+
+h2 {
+    font-family: Arial, sans-serif;
+    color: navy;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.parrafo-titulopags {
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.parrafo-paquetes {
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: start;
+}
+
+.nav-link {
+    font-size: large;
+    font-weight: 600;
+    color: #52658c;
+}
+
