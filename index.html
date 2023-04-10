@@ -7,62 +7,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Document</title>
 </head>
 
 <body>
 
-    <header>
-        <!-- Acá hace falta sustituir por el logo de Fresco y Rico en vez del texto -->
-        <h1>Fresco y Rico Catering</h1>
-        <nav>
-            <ul>
-                <li>Nosotros</li>
-                <li><a href="./pages/servicios.html"> Servicios</a></li>
-                <li><a href="./pages/paquetes.html"> Paquetes</a></li>
-                <li><a href="./pages/como-funcionamos.html">Cómo funcionamos</a></li>
-                <li><a href="./pages/contacto.html"> Contacto</a></li>
-            </ul>
-        </nav>
 
+    <header class="navbar navbar-expand-md bg-body-tertiary border-bottom">
+        <div class="container py-2">
+            <!--División de header para que logo ocupe solo 4 columnas. Finalmente lo regresé a 6 para que el logo no se volviera muy pequeño-->
+            <!--Pendiente averiguar como hacer que el logo no se vuelva tan pequeño-->
+            <div class="row">
+                <div class="col-6">
+                    <a class="navbar-brand" href="#"><img src="../img/Logo catering WORKITOUT.png"
+                            alt="Logo-workit-out-catering" class="w-50"></a>
+                </div>
+
+                <div class="col-6">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <nav class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../pages/paquetes.html" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Paquetes
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/como-funcionamos.html">Cómo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </div>
     </header>
 
     <main>
-        <section class="caja-nosotros">
+        <!--Sección Nosotros con Bootstrap, la haré con un container y dos filas-->
 
-            <h2 class="titulo-nosotros">Fresco y Rico Catering <br>
-                para eventos empresariales</h2>
+        <section class="container pt-5">
 
-            <p class="parrafo-nosotros">Somos una empresa especializada en la preparación de alimentos y menús que se
-                adaptan a diferentes tipos
-                de eventos empresariales y presupuestos.
+            <!--Primera parte de Sección Nosotros-->
+            <div class="container">
 
-            </p>
-            <p class="parrafo-nosotros">Utilizamos ingredientes frescos de alta calidad para preparar alimentos y menús
-                que deleiten a cada
-                comensal.
-            </p>
+                <div class="row">
+                    <!--Sección de texto-->
+                    <div class="col-12 col-lg-6 d-flex flex-column justify-content-around">
+                        <h2 class="display-3 display-md-5 display-lg-3 text-lg-start pt-4">Workit Out <span
+                                class="bus-catering-naranja">Business Catering</span></h2>
+                        <p class="fs-4 fs-md-3 1h-base text-lg-start pe-lg-5">Somos una empresa especializada en la
+                            preparación de alimentos y
+                            menús que se adaptan a diferentes tipos de eventos empresariales y presupuestos.
+                    </div>
 
-            <p class="parrafo-nosotros">Nos emociona saber que contribuimos a que sus clientes alcanzan los objetivos
-                que se plantearon para su
-                evento y que cada participante se vaya satisfecho.
-            </p>
+                    <!--Sección de imagen-->
+                    <div class="col-12 col-lg-6">
+                        <figure>
+                            <img class=w-100 src="./img/main-f1.jpg" alt="filete al vino y cafe">
+                        </figure>
+                    </div>
+                </div>
+
+                <!--Segunda parte de Sección Nosotros-->
+                <div class="row">
+                    <!--Sección de texto-->
+                    <div
+                        class="col-12 col-lg-6 fs-4 1h-base text-lg-start pe-lg-5 d-flex flex-column justify-content-evenly">
+                        <p>Utilizamos ingredientes frescos de alta calidad para preparar
+                            alimentos y menús que deleiten a cada comensal.
+                        </p>
+                        <p>Nos emociona saber que contribuimos a que sus clientes alcanzan
+                            los objetivos que se plantearon para su evento y que cada participante se vaya satisfecho.
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <!--Sección de video-->
+                        <video class="w-100" src="./video/production ID_4474372.mp4" controls muted autoplay
+                            width="400px"></video>
+                    </div>
+                </div>
 
         </section>
+        <!--En esta sección va un botón para solicitar cotización-->
+        <section class="container py-4 ps-4">
+            <div class="col-12 d-flex justify-content-center justify-content-lg-start">
 
-        <!-- Pendiente alinear las imagenes -->
+                <a class="btn btn-lg btn-plomo" href="../pages/contacto.html" role="button">SOLICITA COTIZACION</a>
+            </div>
 
-        <figure class="foto-1">
-            <img src="./img/main-f1.jpg" alt="filete al vino y cafe">
-            <figcaption>Platillos deliciosos</figcaption>
-        </figure>
 
-        <figure class="video-1">
-            <video src="./video/production ID_4474372.mp4" controls muted autoplay width="400px"></video>
-            <figcaption>Video comida</figcaption>
-        </figure>
+
+        </section>
 
     </main>
 
