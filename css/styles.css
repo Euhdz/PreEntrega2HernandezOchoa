@@ -102,8 +102,7 @@ ul {
     border: 0
 }
 
-footer {
-    .texto-footer {
-        font-size: 18px;
-    }
+
+.texto-footer {
+    font-size: 18px;
 }
