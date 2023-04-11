@@ -72,8 +72,8 @@ h2 {
 
 .btn-plomo:hover {
     background-color: white;
-    border: 4px solid #52658c;
-    color: #52658c;
+    border: 4px solid #f58634;
+    color: #f58634;
     font-weight: 600;
 
 }
@@ -86,9 +86,14 @@ h2 {
 ul {
     list-style: none
 }
+
 .link-legales {
     text-decoration: none;
     padding-right: 2px;
     border-right: #52658c;
     color: #52658c;
+}
+
+.link-legales:hover {
+    color: #f58634;
 }
