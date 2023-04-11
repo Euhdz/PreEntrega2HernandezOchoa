@@ -18,7 +18,6 @@
         <div class="container py-2">
             <!--En la mitad del container pongo logo y en la otra mital barra nav-->
             <div class="row">
-
                 <!--Sección logo. Pendiente averiguar como hacer que el logo no se vuelva tan pequeño en la versión sm-->
                 <div class="col-6">
                     <a class="navbar-brand" href="#"><img src="./img/logo-catering-workitout.jpg"
@@ -41,21 +40,13 @@
                                 <a class="nav-link" href="./pages/servicios.html"><span
                                         class="pe-2 border-end">Servicios</span></a>
                             </li>
-                            <!--Posiblemente elimino el dropdown de esta sección porque no hace sentido-->
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="./pages/paquetes.html" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false"><span
-                                        class="pe-2 border-end">Paquetes</span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/paquetes.html"><span
+                                        class="pe-2 border-end">Paquetes</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./pages/como-funcionamos.html"><span
-                                        class="pe-2 border-end">Cómo</span></a>
+                                        class="pe-2 border-end">Cómo funcionamos</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./pages/contacto.html"><span
@@ -111,7 +102,7 @@
                 </div>
         </section>
 
-        <!--En esta sección va un botón para solicitar cotización que se incluirá en todas las páginas-->
+        <!--En esta sección va un botón para solicitar cotización que se incluirá en todas las páginas (excepto en la de Contacto)-->
         <section class="container py-5 ps-4">
             <div class="col-12 d-flex justify-content-center justify-content-lg-start">
                 <a class="btn btn-lg btn-plomo" href="../pages/contacto.html" role="button">SOLICITA COTIZACION</a>
@@ -122,8 +113,8 @@
 
     <!--Para el footer haré un container con 4 filas para los diferentes elementos-->
     <footer class="container-fluid bg-body-tertiary border-bottom border-top py-3">
+        <!--Empieza la sección de redes sociales del footer-->
         <div class="container py-4px">
-
             <div class="row">
                 <div class="col-12">
                     <div class="d-flex justify-content-center">
@@ -132,7 +123,7 @@
                     <div class="col-12">
                         <div class="d-flex justify-content-center">
                             <ul class="fs-3  d-flex">
-                            <!--Pendiente checar cómo agregar la liga a la pag de la red social respectiva-->
+                                <!--Pendiente checar cómo agregar la liga a la pag de la red social respectiva y ligarlas (cuando existan, jeje) -->
                                 <li class="bi bi-facebook px-4"></li>
                                 <li class="bi bi-instagram px-4"></li>
                                 <li class="bi bi-youtube px-4"></li>
@@ -142,7 +133,7 @@
                     </div>
                 </div>
             </div>
-
+            <!--Empieza la sección de legales del footer. Queda pendiente texto Aviso de privacidad y ligarlo-->
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-4 text-center text-lg-start">
@@ -151,11 +142,8 @@
                     <div class="col-12 col-lg-8 text-center text-lg-start">
                         Workit-Out Business Catering © Todos los derechos reservados.
                     </div>
-
                 </div>
             </div>
-
-
         </div>
     </footer>
 
