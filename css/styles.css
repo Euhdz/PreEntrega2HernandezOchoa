@@ -97,3 +97,7 @@ ul {
 .link-legales:hover {
     color: #f58634;
 }
+
+.navbar-toggler {
+    border: 0
+}
