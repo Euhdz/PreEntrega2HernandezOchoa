@@ -82,3 +82,13 @@ h2 {
     background-color: #f58634 border: 2px solid #f58634;
     color: white;
 }
+
+ul {
+    list-style: none
+}
+.link-legales {
+    text-decoration: none;
+    padding-right: 2px;
+    border-right: #52658c;
+    color: #52658c;
+}
