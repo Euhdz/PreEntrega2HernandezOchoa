@@ -61,124 +61,126 @@
 
     <main>
 
-        <!-- Creo esta sección para el título y subtítulo de la página -->
+        <!-- Sección título y subtítulo de la página -->
         <section class="container py-4 text-center">
             <h2 class="titulopags">Contacto - Solicita tu cotización</h2>
             <p class="parrafo-titulopags">Llena esta solicitud con tus datos y cuéntanos de tu evento para apoyarte
                 mejor</p>
         </section>
 
-        <div>
-            <h3>Envíanos un mensaje o solicita tu cotización</h3>
-            <p>Nos pondremos en contacto contigo antes de 48 hrs</p>
-            <form action="">
-                <div>
-                    <label for="nombre-completo"> Nombre </label>
-                    <input type="text" name="" id="nombre-completo">
-                </div>
+        <!-- Sección Contenido de la página -->
 
-                <div>
-                    <label for="e-mail"> e-mail </label>
-                    <input type="email" name="" id="e-mail">
-                </div>
+        <!-- Sección Contenedor principal -->
+        <section class="container-fluid pb-5">
+            <section class=container>
+                <!-- Sección para dividir los 3 bloques del contenido -->
+                <div class="row border m-2">
 
-                <div>
-                    <label for="telefono"> Teléfono </label>
-                    <input type="tel" name="" id="telefono">
-                </div>
+                    <!-- Sección para el formato de solicitud -->
+                    <div class="col-lg-6 d-flex p-4">
+                        <div>
+                            <h3>Envíanos un mensaje o solicita tu cotización</h3>
+                            <p>Nos pondremos en contacto contigo antes de 48 hrs</p>
+                            <div class="mb-3">
+                                <!-- Pendiente checar por qué se rellena el email en vez del nombre-->
+                                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Nombre y apellidos">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                            </div>
 
-                <div>
-                    <label for="empresa"> Empresa </label>
-                    <input type="text" name="" id="empresa">
-                </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
+                                <input type="tel" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Código país + Número a 10 dígitos">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Empresa</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                            </div>
 
-                <!-- Esta lista es para ver el tipo de mensaje.  -->
-                <div>
-                    <label for="asunto-mensaje">Selecciona el asunto</label>
-                    <select name="" id="asunto-mensaje">
-                        <option value="Pregunta">Pregunta</option>
-                        <option value="Cotización">Cotización</option>
-                        <option value="Otro">Otro</option>
-                    </select>
-                </div>
-
-                <div>
-                    <label for="comentarios"> </label>
-                    <textarea name="" id="comentarios" cols="30" rows="10"></textarea>
-                </div>
-
-
-
-                <div>
-                    <input type="submit" value="ENVIAR">
-                    <input type="reset" value="BORRAR">
-                </div>
-            </form>
-        </div>
-
-        <div>
-            <h3> Contacto</h3>
-            <hr>
-            <p>Ent. B Estadio Azteca 5</p>
-            <p>Santa Ursula Coapa, 04650 CDMX </p>
-            <p>contacto@frescoyrico.com</p>
-            <p>+52 55 XXXX-XXXX</p>
-            <hr>
-            <!-- Falta meter los iconos de las redes sociales en la parte de contacto -->
-
-        </div>
-
-        <figure>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.5528642108693!2d-99.15056938429086!3d19.30180144984989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01b5fd65a221%3A0x6fcc660179da61e4!2sWorkit-Out!5e0!3m2!1sen!2smx!4v1679272561712!5m2!1sen!2smx"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </figure>
-
-    </main>
-
-
-
-    <!--Para el footer haré un container con 4 filas para los diferentes elementos-->
-    <footer class="container-fluid bg-body-tertiary border-bottom border-top py-3">
-        <!--Empieza la sección de redes sociales del footer-->
-        <div class="container py-4px">
-            <div class="row">
-                <div class="col-12">
-                    <div class="d-flex justify-content-center">
-                        <h4 class="texto-footer">Síguenos en</h4>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Datos del evento</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                                    placeholder="Describe eltipo de evento, fecha, horario, lugar, número de personas y cualquier otro dato o requerimiento que consideres relevante"></textarea>
+                            </div>
+                        </div>
                     </div>
+
+
+
+                    <!-- Sección para el bloque datos contacto -->
+                    <div class="col-lg-6 d-flex p-4">
+                        <div class="row">
+                            <div>
+                                <h3> Contacto</h3>
+                                <div class="col-lg-6 d-flex">
+                                    <div>
+                                        <p>Ent. B Estadio Azteca 5</p>
+                                        <p>Santa Ursula Coapa, 04650 CDMX </p>
+                                        <p>contacto@workit-out.com</p>
+                                        <p>+52 55 XXXX-XXXX</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Sección para el bloque de mapa -->
+                            <div class="col-lg-6 d-flex">
+                                <figure>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.5528642108693!2d-99.15056938429086!3d19.30180144984989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01b5fd65a221%3A0x6fcc660179da61e4!2sWorkit-Out!5e0!3m2!1sen!2smx!4v1679272561712!5m2!1sen!2smx"
+                                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade">
+                                    </iframe>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!--Sección Footer (2 containers con 2 filas c/u para acomodar los diferentes elementos)-->
+        <footer class="container-fluid bg-body-tertiary border-bottom border-top py-3">
+            <!--Empieza la sección de redes sociales del footer-->
+            <div class="container py-4px">
+                <div class="row">
                     <div class="col-12">
                         <div class="d-flex justify-content-center">
-                            <ul class="fs-3  d-flex">
-                                <!--Pendiente checar cómo agregar la liga a la pag de la red social respectiva y ligarlas (cuando existan, jeje) -->
-                                <li class="bi bi-facebook px-4"></li>
-                                <li class="bi bi-instagram px-4"></li>
-                                <li class="bi bi-youtube px-4"></li>
-                                <li class="bi bi-twitter px-4"></li>
-                            </ul>
+                            <h4 class="texto-footer">Síguenos en</h4>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center">
+                                <ul class="fs-3  d-flex">
+                                    <!--Pendiente checar cómo agregar la liga a la pag de la red social respectiva y ligarlas (cuando existan, jeje) -->
+                                    <li class="bi bi-facebook px-4"></li>
+                                    <li class="bi bi-instagram px-4"></li>
+                                    <li class="bi bi-youtube px-4"></li>
+                                    <li class="bi bi-twitter px-4"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Empieza la sección de legales del footer. Queda pendiente texto Aviso de privacidad y ligarlo-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-4 text-center text-lg-start">
+                            <a href="#" class="link-legales">Aviso de Privacidad</a>
+                        </div>
+                        <div class="col-12 col-lg-8 text-center text-lg-start">
+                            Workit-Out Business Catering © Todos los derechos reservados.
                         </div>
                     </div>
                 </div>
             </div>
-            <!--Empieza la sección de legales del footer. Queda pendiente texto Aviso de privacidad y ligarlo-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-4 text-center text-lg-start">
-                        <a href="#" class="link-legales">Aviso de Privacidad</a>
-                    </div>
-                    <div class="col-12 col-lg-8 text-center text-lg-start">
-                        Workit-Out Business Catering © Todos los derechos reservados.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+        </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
 
 </body>
 
