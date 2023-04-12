@@ -4,7 +4,11 @@ body {
 
 
 h1 {
-    color: blue;
+    font-family: Arial, sans-serif;
+    color: navy;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
 }
 
 
@@ -105,4 +109,13 @@ ul {
 
 .texto-footer {
     font-size: 18px;
+}
+
+.titulopags {
+    color: midnightblue;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    
 }
