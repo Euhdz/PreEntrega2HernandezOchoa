@@ -101,3 +101,24 @@ ul {
 .display-3 {
     font-weight: 600;
 }
+
+.paquete__titulo {
+    height: 50px;
+    align-items: center;
+}
+
+.paquete__descripcion {
+    height: 50px;
+    align-items:center;
+}
+div.row.paquete__titulo {
+    height: 100px;
+    text-align: center;
+}
+
+div.row.paquete__descripcion {
+    height: 70px;
+    text-align: center;
+    justify-content: start;
+
+}

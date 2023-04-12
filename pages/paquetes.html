@@ -61,57 +61,77 @@
 
     <main>
 
-        <!-- Creo esta sección para el título y subtítulo de la página -->
+        <!-- Sección título y subtítulo de página -->
         <section class="container py-4 text-center">
             <h2 class="titulopags">Paquetes</h2>
             <p class="parrafo-titulopags">Tenemos paquetes que incluyen el lugar y mobiliario para tu evento</p>
         </section>
 
-        <!-- Validar si aquí se divide con div o con section -->
-        <section>
-            <div>
-                <h3>Coffee Break y Alimentos</h3>
-            </div>
-            <div>
-                <p class="parrafo-paquetes">Paquetes de coffee break + desayno y/o comida </p>
-            </div>
-            <div>
-                <figure>
-                    <img width="350" height="250" src="../img/paquete-coffee-alimentos-f7.jpg" alt="cafe y comida">
-                </figure>
+        <!-- Sección Contenido: Paquetes-->
+        <section class="container">
+
+            <!-- Div para Categorías de Paquetes-->
+            <div class="row">
+                <div class="col-md-6 col-lg-4 d-flex align-items-center">
+                    <div class="container">
+                        <div class="row paquete__titulo">
+                            <h3>Coffee Break y Alimentos</h3>
+                        </div>
+
+                        <div class="row">
+                            <figure>
+                                <img src="../img/paquete-coffee-alimentos-f7.jpg" class="w-100" alt="cafe y comida">
+                            </figure>
+                            <div class="row paquete__descripcion">
+                                <p>Paquetes de coffee break + desayuno y/o comida</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 d-flex align-items-center">
+                    <div class="container">
+                        <div class="row paquete__titulo">
+                            <h3>Paquetes con Mobiliario</h3>
+                        </div>
+
+                        <div class="row">
+                            <figure>
+                                <img src="../img/montajejsu-8.jpg" class="w-100" alt="cafe y comida">
+                            </figure>
+                            <div class="row paquete__descripcion">
+                                <p>Mesas y sillas, salas lounge, periqueras</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 d-flex align-items-center">
+                    <div class="container">
+                        <div class="row paquete__titulo">
+                            <h3>Paquetes en Jardín Santa Ursula / Workit-out</h3>
+                        </div>
+
+                        <div class="row">
+                            <figure>
+                                <img src="../img/paqueteconjardin-f9.jpg" alt="Montaje en Jardin Santa Ursula">
+                            </figure>
+                            <div class="row paquete__descripcion">
+                                <p>Instalaciones Jardín Santa Ursula/Workit Out, alimentos y mobiliario</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
 
-            <section>
-                <div>
-                    <h3>Paquetes con Mobiliario</h3>
-                </div>
-                <div>
-                    <p class="parrafo-paquetes">Mesas y sillas, salas lounge, periqueras </p>
-                </div>
-                <div>
-                    <figure>
-                        <img width="350" height="250" src="../img/montajejsu-8.jpg" alt="Montaje evento">
-                    </figure>
-                </div>
-                <section>
-                    <div>
-                        <h3>Paquetes en Jardín Santa Ursula y Workit-out</h3>
-                    </div>
-                    <div>
-                        <p class="parrafo-paquetes">Somos un aliado estratégico de Jardín Santa Ursula y Workit-out.
-                            Tenemos paquetes que incluyen el venue, alimentos y mobiliario </p>
-                    </div>
-                    <div>
-                        <figure>
-                            <img width="350" height="250" src="../img/paqueteconjardin-f9.jpg"
-                                alt="Montaje en Jardin Santa Ursula">
-                        </figure>
-                    </div>
 
 
-                    </div>
-                    <!-- Falta meter el boton que lleva a la solicitud de cotización -->
-                    </div>
+        </section>
+
+
+
 
                     <!--En esta sección va un botón para solicitar cotización que se incluirá en todas las páginas (excepto en la de Contacto)-->
                     <section class="container py-5 ps-4">
