@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-     
+     color: navy;
     font-size: 2.3rem;
     font-weight: bold;
     text-align: center;
@@ -89,14 +89,15 @@ ul {
     font-size: 18px;
 }
 
-<<<<<<< HEAD
 .titulopags {
-    color: midnightblue;
+    color:navy;
     font-family: Arial, sans-serif;
     font-size: 36px;
     font-weight: bold;
     text-align: center;
     
 }
-=======
->>>>>>> 15f6a62e6c0da6ff91de338b3afd61b545511d67
+
+.display-3 {
+    font-weight: 600;
+}
