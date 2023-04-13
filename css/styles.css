@@ -135,3 +135,13 @@ div.col-lg-6.dflex {
     padding-right: 3px;
  
 }
+
+input.btn.btn-secondary.btn-lg.btn-enviar {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #52658c;
+    --bs-btn-border-color: #52658c;
+    --bs-btn-hover-color: #f58634;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-border-color: #f58634; 
+}
+
