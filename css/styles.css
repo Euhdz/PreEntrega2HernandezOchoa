@@ -1,7 +1,5 @@
 body {
-    
-        background-color: white
-    
+    background-color: white
 }
 
 h1 {
@@ -17,12 +15,11 @@ h1 {
 }
 
 h2 {
-     color: navy;
+    color: navy;
     font-size: 2.3rem;
     font-weight: bold;
     text-align: center;
 }
-
 
 .parrafo-paquetes {
     font-family: Arial, sans-serif;
@@ -48,8 +45,6 @@ h2 {
     border: 2px solid #52658c;
     color: white;
     font-weight: 600;
-
-
 }
 
 .btn-plomo:hover {
@@ -57,12 +52,6 @@ h2 {
     border: 4px solid #f58634;
     color: #f58634;
     font-weight: 600;
-
-}
-
-.btn-naranja {
-    background-color: #f58634 border: 2px solid #f58634;
-    color: white;
 }
 
 ul {
@@ -84,18 +73,16 @@ ul {
     border: 0
 }
 
-
 .texto-footer {
     font-size: 18px;
 }
 
 .titulopags {
-    color:navy;
+    color: navy;
     font-family: Arial, sans-serif;
     font-size: 36px;
     font-weight: bold;
     text-align: center;
-    
 }
 
 .display-3 {
@@ -109,8 +96,9 @@ ul {
 
 .paquete__descripcion {
     height: 50px;
-    align-items:center;
+    align-items: center;
 }
+
 div.row.paquete__titulo {
     height: 100px;
     text-align: center;
@@ -120,9 +108,7 @@ div.row.paquete__descripcion {
     height: 70px;
     text-align: center;
     justify-content: start;
-
 }
-
 
 div.row.m-2 {
     border: #52658c;
@@ -133,7 +119,6 @@ div.row.m-2 {
 div.col-lg-6.dflex {
     padding-left: 6px;
     padding-right: 3px;
- 
 }
 
 input.btn.btn-secondary.btn-lg.btn-enviar {
@@ -142,6 +127,5 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
     --bs-btn-border-color: #52658c;
     --bs-btn-hover-color: #f58634;
     --bs-btn-hover-bg: white;
-    --bs-btn-hover-border-color: #f58634; 
+    --bs-btn-hover-border-color: #f58634;
 }
-
