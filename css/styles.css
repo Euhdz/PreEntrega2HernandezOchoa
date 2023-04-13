@@ -129,3 +129,32 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
     --bs-btn-hover-bg: white;
     --bs-btn-hover-border-color: #f58634;
 }
+
+/* ---COMO FUNCIONAMOS - PASOS A SEGUIR ---*/
+
+.pasos {
+    padding: 10px;
+}
+
+.pasos-icon {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3px;
+}
+
+.pasos-icon i {
+    color: #f58634;
+    font-size: 2.5rem;
+    padding: 5px;
+}
+
+.pasos-texto {
+    padding: 3px 0px;
+    text-align: center;
+}
+
+.pasos-texto h3 {
+    color: #52658c
+}
