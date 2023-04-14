@@ -134,8 +134,7 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
 
 .pasos {
     padding: 10px;
-    max-width:330px;
-   
+    max-width: 330px;
 }
 
 .pasos-icon {
@@ -154,11 +153,10 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
 
 .pasos-texto {
     padding: 3px 0px;
-   
+
     text-align: center;
 }
 
 .pasos-texto h3 {
     color: #52658c
-    
 }
